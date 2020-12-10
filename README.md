@@ -1,1 +1,1 @@
-# optimus-demo
+# optimis-guide
