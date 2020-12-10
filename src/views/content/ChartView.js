@@ -1,5 +1,5 @@
 import { View } from "dhx-optimus";
-import { getChartStatistic } from "../../assets/data/data";
+import { getChartStatistic } from "../../utils/helpers";
 
 export class ChartView extends View {
 	init() {
@@ -22,7 +22,7 @@ export class ChartView extends View {
 				halign: "center",
 				valign: "bottom",
 			},
-			data: getChartStatistic(),
+			data: getChartStatistic(this.params.dataCollection.serialize()),
 		});
 	}
 }
