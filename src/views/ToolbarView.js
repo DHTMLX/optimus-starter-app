@@ -34,7 +34,7 @@ export class ToolbarView extends View {
 		this.observe(
 			state => state.active,
 			active => {
-				this.toolbar.data.update(active, { active: true });
+				this.toolbar.select(active);
 			}
 		);
 
