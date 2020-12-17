@@ -62,7 +62,7 @@ export class ToolbarView extends View {
 						break;
 				}
 
-				this.toolbar.data.update(active, { active: true });
+				this.toolbar.select(active);
 			}
 		);
 
