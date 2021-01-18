@@ -5,7 +5,7 @@
 
 For a complete immersion in the world of DHTMLX Optimus, you can follow our step-by-step guide, which in just five steps will show you the principles of developing with DHTMLX Optimus at a professional level, which is suitable for both professionals and beginners in the world of JavaScript and DHTMLX.
 
-- [Go to the first step](https://github.com/DHTMLX/optimus-demo-guide/tree/guide/first-step)
+- [Go to the first step](https://github.com/DHTMLX/optimus-demo-guide/tree/guide/step-1)
 
 ## How to run
 - run `npm install`
