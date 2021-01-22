@@ -1,38 +1,31 @@
-# DHTMLX Optimus guide
-
-[![dhtmlx.com](https://img.shields.io/badge/made%20by-DHTMLX-blue)](https://dhtmlx.com/)
-[![License: GPL v2](https://img.shields.io/badge/license-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+## Step 4. Add DHTMLX components: DataView, Chart, Grid. [The guide](https://docs.dhtmlx.com/suite/optimus_guides__how_to_start_optimus.html#step4adddhtmlxcomponentsdataviewchartgrid)
 
 For a complete immersion in the world of DHTMLX Optimus, you can follow our step-by-step guide, which in just five steps will show you the principles of developing with DHTMLX Optimus at a professional level, which is suitable for both professionals and beginners in the world of JavaScript and DHTMLX.
 
-- [Go to the fifth step](https://github.com/DHTMLX/optimus-demo-guide/tree/guide/step-5)
-- [Go to the previous step](https://github.com/DHTMLX/optimus-demo-guide/tree/guide/step-3)
+:arrow_right: &nbsp; [Next step. Provide editing data](https://github.com/DHTMLX/optimus-demo-guide/tree/guide/step-5)
 
-## How to run
-- run `npm install`
-- run `npm start` for starting the server
+:arrow_left: &nbsp; [Previous step. Define the global state of the app](https://github.com/DHTMLX/optimus-demo-guide/tree/guide/step-3)
 
-### Other commands
+### How to run
 
-#### Run prettier
+```
+npm install
+npm start
+```
+
+#### Other commands
+
+Run prettier
 
 ```
 npm run prettier
 ```
 
-## License
+### Useful links
 
-[![License: GPL v2](https://img.shields.io/badge/license-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-
-
-## Useful links
-
-- [Online  documentation](https://docs.dhtmlx.com/)
-- [Support forum](https://forum.dhtmlx.com/c/suite6)
-
-
-## Follow us
-
+- [DHTMLX Optimus documentation](https://docs.dhtmlx.com/suite/optimus_guides__index.html)
+- [Suite with Optimus documentation](https://docs.dhtmlx.com/suite/optimus_guides__how_to_start_optimus.html)
+- [Support forum](https://forum.dhtmlx.com/c/optimus)
 Star our GitHub repo :star:
 
 Watch our tutorials on [YouTube](https://www.youtube.com/user/dhtmlx/videos) :eyes:
