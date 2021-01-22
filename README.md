@@ -1,44 +1,29 @@
-# DHTMLX Optimus guide
-
-[![dhtmlx.com](https://img.shields.io/badge/made%20by-DHTMLX-blue)](https://dhtmlx.com/)
-[![License: GPL v2](https://img.shields.io/badge/license-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+## Step 2. Add views using DHTMLX Suite. [The guide](https://docs.dhtmlx.com/suite/optimus_guides__how_to_start_optimus.html#step2addviewsusingdhtmlxsuite)
 
 For a complete immersion in the world of DHTMLX Optimus, you can follow our step-by-step guide, which in just five steps will show you the principles of developing with DHTMLX Optimus at a professional level, which is suitable for both professionals and beginners in the world of JavaScript and DHTMLX.
 
-- [Go to the third step](https://github.com/DHTMLX/optimus-demo-guide/tree/guide/step-3)
-- [Go to the previous step](https://github.com/DHTMLX/optimus-demo-guide/tree/guide/step-1)
+:arrow_right: &nbsp; [Next step. Define the global state of the app](https://github.com/DHTMLX/optimus-demo-guide/tree/guide/step-3)
 
-## How to run
-- run `npm install`
-- run `npm start` for starting the server
+:arrow_left: &nbsp; [Previous step. Initialize an application](https://github.com/DHTMLX/optimus-demo-guide/tree/guide/step-1)
 
-### Other commands
+### How to run
 
-#### Run prettier
+```
+npm install
+npm start
+```
+
+#### Other commands
+
+Run prettier
 
 ```
 npm run prettier
 ```
 
-## License
+### Useful links
 
-[![License: GPL v2](https://img.shields.io/badge/license-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+- [DHTMLX Optimus documentation](https://docs.dhtmlx.com/suite/optimus_guides__index.html)
+- [Suite with Optimus documentation](https://docs.dhtmlx.com/suite/optimus_guides__how_to_start_optimus.html)
+- [Support forum](https://forum.dhtmlx.com/c/optimus)
 
-
-## Useful links
-
-- [Online  documentation](https://docs.dhtmlx.com/)
-- [Support forum](https://forum.dhtmlx.com/c/suite6)
-
-
-## Follow us
-
-Star our GitHub repo :star:
-
-Watch our tutorials on [YouTube](https://www.youtube.com/user/dhtmlx/videos) :eyes:
-
-Read us on [Medium](https://medium.com/@dhtmlx) :newspaper:
-
-Follow us on [Twitter](https://twitter.com/dhtmlx) :feet:
-
-Like our page on [Facebook](https://www.facebook.com/dhtmlx/) :thumbsup:
