@@ -4,7 +4,7 @@
 
 **1. To quickly start working with your own app using fast and simple JavaScript microframework [DHTMLX Optimus](https://docs.dhtmlx.com/suite/optimus_guides__index.html).** 
 
-Clone the repository and use the master branch.
+Clone the repository and use the main branch.
 
 **2. To learn the best practices of building the app with Optimus step-by-step.** 
 
