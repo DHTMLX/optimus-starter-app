@@ -39,6 +39,7 @@ npm run prettier
 - [DHTMLX Optimus documentation](https://docs.dhtmlx.com/suite/optimus_guides__index.html)
 - [Suite with Optimus documentation](https://docs.dhtmlx.com/suite/optimus_guides__how_to_start_optimus.html)
 - [Support forum](https://forum.dhtmlx.com/c/optimus)
+- [Optimus source code](https://github.com/DHTMLX/optimus)
 
 ## Other online demos using Optimus
 
