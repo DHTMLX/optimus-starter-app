@@ -49,7 +49,6 @@ module.exports = {
 			{
 				test: /\.css$/,
 				use: [
-					"style-loader",
 					MiniCssExtractPlugin.loader,
 					{
 						loader: "css-loader",
@@ -59,7 +58,21 @@ module.exports = {
 						loader: "postcss-loader",
 						options: {
 							sourceMap: true,
-							config: { path: "./postcss.config.js" },
+							postcssOptions:{
+								plugins: [
+									require('autoprefixer'),
+									require('css-mqpacker'),
+									require('cssnano')({
+										preset: [
+											'default', {
+												discardComments: {
+													removeAll: true,
+												}
+											}
+										]
+									})
+								]
+							}
 						},
 					},
 				],
@@ -74,10 +87,12 @@ module.exports = {
 		new MiniCssExtractPlugin({
 			filename: "[name].css",
 		}),
-		new CopyWebpackPlugin([
-			{ from: `${PATHS.src}/${PATHS.assets}`, to: `${PATHS.assets}` },
-			{ from: `${PATHS.src}/${PATHS.static}`, to: `${PATHS.static}` },
-			{ from: `${PATHS.src}/index.html`, to: "index.html" },
-		]),
+		new CopyWebpackPlugin({
+			patterns:[
+				{ from: `${PATHS.src}/${PATHS.assets}`, to: `${PATHS.assets}` },
+				{ from: `${PATHS.src}/${PATHS.static}`, to: `${PATHS.static}` },
+				{ from: `${PATHS.src}/index.html`, to: "index.html" },
+			]
+		}),
 	],
 };
